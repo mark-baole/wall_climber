@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Wall Climber",
+  "version": "1.0",
+  "description": "Opens the Google cached version of the current page.",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon.png"
+  }
+}
